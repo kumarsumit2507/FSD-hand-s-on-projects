@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Playfair Display;
+}
+body{
+    background-color: rgb(160, 94, 94);
+}
+.user_container{
+    height: 100vh;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    background-color: rgb(50, 204, 132);
+    justify-content: center;
+    align-items: center;
+
+}
+.form{
+    background-color: rgb(0, 119, 62);
+    height: 450px;
+    width: 50vh;
+    padding: 50px 100px;
+    border: 2px solid white;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px 15px rgb(11, 11, 11) inset;
+    
+}
+h1{
+    color: rgb(5, 245, 225);
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.user_input{
+    width: 100%;
+    height: 25px;
+    padding: 5px 15px;
+    margin-bottom:7px;
+    border-radius: 5px;
+}
+.user_input:focus{
+    /* outline: black; */
+}
+
+.addon_section{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 10px 0px;
+    width: 100%;
+    gap: 80px;
+}
+span{
+    font-size: 1.1rem;
+}
+.addon_section a{
+    font-size: 0.9rem;
+}
+.check{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+#lg_btn , #recy_btn , #si_btn{
+    width: 100%;
+    margin: 15px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    /* color: white; */
+    background-color: rgb(5, 245, 225);
+}
+
+.footer{
+    text-align: center;
+}
+
+
+/* recy */
+.recy{
+    font-size: 2.2rem;
+}
+
+
+/* utitlty classes  */
+
+a{
+    text-decoration: none;
+}
+
+.recy_footer a{
+    font-size: 1.5rem
+    margin-bottom: 20px;
+}
